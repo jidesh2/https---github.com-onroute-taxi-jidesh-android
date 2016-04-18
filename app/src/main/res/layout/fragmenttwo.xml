@@ -1,0 +1,616 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="onroute.onroute.com.onroute.fragmenttwo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                        tools:context="onroute.onroute.com.onroute.MainActivity"
+                        tools:showIn="@layout/app_bar_main"
+                        android:background="#585757"
+                        android:orientation="vertical"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.5"
+                                        android:background="@drawable/la"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:id="@+id/imageView2"
+                                            android:background="@drawable/images"
+                                            android:layout_margin="5dp"
+                                            android:alpha="0.6" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:text="Exclusive"
+                                            android:id="@+id/textView3"
+                                            android:textColor="#ffffff"
+                                            android:textSize="25dp"
+                                            android:textAlignment="textStart"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_alignTop="@+id/imageView2"
+                                            android:layout_alignStart="@+id/imageView2" />
+
+                                        <ImageButton
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:id="@+id/imageButton2"
+                                            android:background="#00000000"
+                                            android:src="@drawable/skip"
+                                            android:scaleType="center" />
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.5">
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:orientation="vertical"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.5"
+                                                android:background="@drawable/la"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_marginBottom="2.5dp">
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+
+                                                    <ImageView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:id="@+id/imageView3"
+                                                        android:background="@drawable/dd"
+                                                        android:alpha="0.6"
+                                                        android:layout_margin="5dp" />
+
+                                                    <ImageButton
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:id="@+id/imageButton3"
+                                                        android:layout_alignParentTop="true"
+                                                        android:layout_alignParentStart="true"
+                                                        android:background="#00000000"
+                                                        android:src="@drawable/skip"
+                                                        android:layout_margin="5dp" />
+                                                </RelativeLayout>
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:orientation="vertical"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.5"
+                                                android:background="@drawable/la"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginTop="2.5dp"
+                                                android:layout_marginBottom="5dp">
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent" >
+
+                                                    <ImageView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:id="@+id/imageView4"
+                                                        android:background="@drawable/dd"
+                                                        android:alpha="0.6"
+                                                        android:layout_margin="5dp" />
+
+                                                    <ImageButton
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:id="@+id/imageButton4"
+                                                        android:layout_alignParentTop="true"
+                                                        android:layout_alignParentStart="true"
+                                                        android:background="#00000000"
+                                                        android:src="@drawable/skip"
+                                                        android:layout_margin="5dp" />
+                                                </RelativeLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </RelativeLayout>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" >
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.5"
+                                        android:layout_marginBottom="2dp">
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" >
+
+                                            <LinearLayout
+                                                android:orientation="vertical"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.3" >
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent" >
+
+                                                    <LinearLayout
+                                                        android:orientation="horizontal"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:background="@drawable/la" >
+
+                                                        <FrameLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentTop="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:background="@drawable/la" >
+
+                                                            <LinearLayout
+                                                                android:orientation="vertical"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent" >
+
+                                                                <RelativeLayout
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="match_parent"
+                                                                    android:layout_weight="0.9" >
+
+                                                                    <LinearLayout
+                                                                        android:orientation="horizontal"
+                                                                        android:layout_width="match_parent"
+                                                                        android:layout_height="match_parent" >
+
+                                                                        <RelativeLayout
+                                                                            android:layout_width="match_parent"
+                                                                            android:layout_height="match_parent"
+                                                                            android:layout_weight="0.5" >
+
+                                                                            <LinearLayout
+                                                                                android:orientation="vertical"
+                                                                                android:layout_width="match_parent"
+                                                                                android:layout_height="match_parent">
+
+                                                                                <RelativeLayout
+                                                                                    android:layout_width="match_parent"
+                                                                                    android:layout_height="match_parent"
+                                                                                    android:layout_weight="0.8"
+                                                                                    android:background="@drawable/dj">
+
+                                                                                    <TextView
+                                                                                        android:layout_width="wrap_content"
+                                                                                        android:layout_height="match_parent"
+                                                                                        android:text="Orange is the new back"
+                                                                                        android:id="@+id/textView2"
+                                                                                        android:layout_centerVertical="true"
+                                                                                        android:layout_alignParentStart="true"
+                                                                                        android:textColor="#383636"
+                                                                                        android:textSize="15dp"
+                                                                                        android:textStyle="bold"
+                                                                                        android:textAlignment="center"
+                                                                                        android:gravity="center"
+                                                                                        android:layout_alignParentEnd="true" />
+                                                                                </RelativeLayout>
+
+                                                                                <RelativeLayout
+                                                                                    android:layout_width="match_parent"
+                                                                                    android:layout_height="match_parent"
+                                                                                    android:layout_weight="0.2"></RelativeLayout>
+                                                                            </LinearLayout>
+                                                                        </RelativeLayout>
+                                                                    </LinearLayout>
+                                                                </RelativeLayout>
+                                                            </LinearLayout>
+                                                        </FrameLayout>
+                                                    </LinearLayout>
+                                                </RelativeLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.5"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginBottom="2dp">
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:orientation="vertical"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.3" >
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+
+                                                    <LinearLayout
+                                                        android:orientation="horizontal"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:background="@drawable/la">
+
+                                                        <FrameLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentTop="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:background="@drawable/la" >
+
+                                                            <LinearLayout
+                                                                android:orientation="vertical"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent" >
+
+                                                                <RelativeLayout
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="match_parent"
+                                                                    android:layout_weight="0.9" >
+
+                                                                    <LinearLayout
+                                                                        android:orientation="horizontal"
+                                                                        android:layout_width="match_parent"
+                                                                        android:layout_height="match_parent" >
+
+                                                                        <RelativeLayout
+                                                                            android:layout_width="match_parent"
+                                                                            android:layout_height="match_parent"
+                                                                            android:layout_weight="0.5" >
+
+                                                                            <LinearLayout
+                                                                                android:orientation="vertical"
+                                                                                android:layout_width="match_parent"
+                                                                                android:layout_height="match_parent" >
+
+                                                                                <RelativeLayout
+                                                                                    android:layout_width="match_parent"
+                                                                                    android:layout_height="match_parent"
+                                                                                    android:layout_weight="0.8"
+                                                                                    android:background="@drawable/dj" >
+
+                                                                                    <TextView
+                                                                                        android:layout_width="wrap_content"
+                                                                                        android:layout_height="match_parent"
+                                                                                        android:text="Orange is the new back"
+                                                                                        android:id="@+id/textView4"
+                                                                                        android:layout_centerVertical="true"
+                                                                                        android:layout_alignParentStart="true"
+                                                                                        android:textColor="#383636"
+                                                                                        android:textSize="15dp"
+                                                                                        android:textStyle="bold"
+                                                                                        android:textAlignment="center"
+                                                                                        android:gravity="center"
+                                                                                        android:layout_alignParentEnd="true" />
+                                                                                </RelativeLayout>
+
+                                                                                <RelativeLayout
+                                                                                    android:layout_width="match_parent"
+                                                                                    android:layout_height="match_parent"
+                                                                                    android:layout_weight="0.2" />
+                                                                            </LinearLayout>
+                                                                        </RelativeLayout>
+                                                                    </LinearLayout>
+                                                                </RelativeLayout>
+
+                                                            </LinearLayout>
+                                                        </FrameLayout>
+                                                    </LinearLayout>
+                                                </RelativeLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </RelativeLayout>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" >
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.5">
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" >
+
+                                            <LinearLayout
+                                                android:orientation="vertical"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.3" >
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent" >
+
+                                                    <LinearLayout
+                                                        android:orientation="horizontal"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:background="@drawable/la" >
+
+                                                        <FrameLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentTop="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:background="@drawable/la" >
+
+                                                            <LinearLayout
+                                                                android:orientation="vertical"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent" >
+
+                                                                <RelativeLayout
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="match_parent"
+                                                                    android:layout_weight="0.9" >
+
+                                                                    <LinearLayout
+                                                                        android:orientation="horizontal"
+                                                                        android:layout_width="match_parent"
+                                                                        android:layout_height="match_parent" >
+
+                                                                        <RelativeLayout
+                                                                            android:layout_width="match_parent"
+                                                                            android:layout_height="match_parent"
+                                                                            android:layout_weight="0.5">
+
+                                                                            <LinearLayout
+                                                                                android:orientation="vertical"
+                                                                                android:layout_width="match_parent"
+                                                                                android:layout_height="match_parent" >
+
+                                                                                <RelativeLayout
+                                                                                    android:layout_width="match_parent"
+                                                                                    android:layout_height="match_parent"
+                                                                                    android:layout_weight="0.8"
+                                                                                    android:background="@drawable/dj" >
+
+                                                                                    <TextView
+                                                                                        android:layout_width="wrap_content"
+                                                                                        android:layout_height="match_parent"
+                                                                                        android:text="Orange is the new back"
+                                                                                        android:id="@+id/textView5"
+                                                                                        android:layout_centerVertical="true"
+                                                                                        android:layout_alignParentStart="true"
+                                                                                        android:textColor="#383636"
+                                                                                        android:textSize="15dp"
+                                                                                        android:textStyle="bold"
+                                                                                        android:textAlignment="center"
+                                                                                        android:gravity="center"
+                                                                                        android:layout_alignParentEnd="true" />
+                                                                                </RelativeLayout>
+
+                                                                                <RelativeLayout
+                                                                                    android:layout_width="match_parent"
+                                                                                    android:layout_height="match_parent"
+                                                                                    android:layout_weight="0.2" />
+                                                                            </LinearLayout>
+                                                                        </RelativeLayout>
+                                                                    </LinearLayout>
+                                                                </RelativeLayout>
+                                                            </LinearLayout>
+                                                        </FrameLayout>
+                                                    </LinearLayout>
+                                                </RelativeLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.5"
+                                        android:layout_marginLeft="5dp">
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" >
+
+                                            <LinearLayout
+                                                android:orientation="vertical"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.3" >
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent" >
+
+                                                    <LinearLayout
+                                                        android:orientation="horizontal"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:background="@drawable/la" >
+
+                                                        <FrameLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentTop="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:background="@drawable/la" >
+
+                                                            <LinearLayout
+                                                                android:orientation="vertical"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent" >
+
+                                                                <RelativeLayout
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="match_parent"
+                                                                    android:layout_weight="0.9" >
+
+                                                                    <LinearLayout
+                                                                        android:orientation="horizontal"
+                                                                        android:layout_width="match_parent"
+                                                                        android:layout_height="match_parent" >
+
+                                                                        <RelativeLayout
+                                                                            android:layout_width="match_parent"
+                                                                            android:layout_height="match_parent"
+                                                                            android:layout_weight="0.5" >
+
+                                                                            <LinearLayout
+                                                                                android:orientation="vertical"
+                                                                                android:layout_width="match_parent"
+                                                                                android:layout_height="match_parent" >
+
+                                                                                <RelativeLayout
+                                                                                    android:layout_width="match_parent"
+                                                                                    android:layout_height="match_parent"
+                                                                                    android:layout_weight="0.8"
+                                                                                    android:background="@drawable/dj" >
+
+                                                                                    <TextView
+                                                                                        android:layout_width="wrap_content"
+                                                                                        android:layout_height="match_parent"
+                                                                                        android:text="Orange is the new back"
+                                                                                        android:id="@+id/textView6"
+                                                                                        android:layout_centerVertical="true"
+                                                                                        android:layout_alignParentStart="true"
+                                                                                        android:textColor="#383636"
+                                                                                        android:textSize="15dp"
+                                                                                        android:textStyle="bold"
+                                                                                        android:textAlignment="center"
+                                                                                        android:gravity="center"
+                                                                                        android:layout_alignParentEnd="true" />
+                                                                                </RelativeLayout>
+
+                                                                                <RelativeLayout
+                                                                                    android:layout_width="match_parent"
+                                                                                    android:layout_height="match_parent"
+                                                                                    android:layout_weight="0.2" />
+                                                                            </LinearLayout>
+                                                                        </RelativeLayout>
+                                                                    </LinearLayout>
+                                                                </RelativeLayout>
+                                                            </LinearLayout>
+                                                        </FrameLayout>
+                                                    </LinearLayout>
+                                                </RelativeLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </RelativeLayout>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
